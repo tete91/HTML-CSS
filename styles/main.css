@@ -1,0 +1,171 @@
+#logoTitulo {
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+}
+#botonLogoTitulo {
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+body{
+    background-color: black;
+}
+.estiloNav{
+    background-color: #FFD502;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.estiloBotones{
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    max-width: fit-content;
+    font-size: 36px;
+    margin-right: 5%;
+}
+.estiloBotonesConLogo{
+    height: 100%;
+    border: 0;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+.logoNav{
+    height: 100%;
+    max-height: 100%;
+    width: auto;
+    display: block;
+    
+}
+.cabeceraArticulos{
+    background-color: #FFD502;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding: 2%;
+    max-width: fit-content;
+    font-size: 24px;
+}
+.articulos{
+    background-color: #FFFFFF;
+}
+.textoArticulos{
+    padding: 5%;
+    font-weight: bolder;
+    font-size: 24px;
+}
+.margenArticulos{
+    margin-top: 5%;
+}
+.precioInsiders{
+    color:#A737FC;
+    padding-left: 5%;
+    font-size: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.duracionPromocion{
+    color: #8A7874;
+    padding-top: 1%;
+    padding-left: 5%;
+    font-size: 18px;
+    display: block;
+}
+.precioArticulo{
+    padding-left: 5%;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.anadirBolsa{
+    margin-left: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: fit-content;
+    border-radius: 20%;
+    background-color: #D06A1B;
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.divScrollX{
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 20px;
+    padding: 20px;
+    background-color: #E7D0FF;
+}
+footer{
+    background-color: rgba(61, 2, 138, 0.582);
+    margin-top: 1%;
+}
+.logoLegoFooter{
+    width: 30%;
+    display: block;
+
+}
+.ubicacionUsuario{
+    background-color: rgb(10, 0, 24);
+    font-size: 16px;
+    border: 0;
+    cursor:pointer;
+    display: inline-flex;
+    align-items: center;
+    color: whitesmoke;  
+
+}
+.logoUbicacion{
+    width: 20px;
+    height: 20px;
+    margin-right: 3%;
+}
+.estiloBotonesFooter{
+    color: whitesmoke;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 22px;
+    text-align: left;
+    display: block;
+
+
+}
+.divFooter{
+    color: whitesmoke;
+}
+.footerSections{
+    color: whitesmoke;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 24px;
+    text-align: left;
+    display: block;
+    font-weight: bolder;
+
+}
+.logosFollow{
+    width: 5%;
+    display:inline-flex;
+}
+.estiloFinalBotonesFooter{
+    color: whitesmoke;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: left;
+    display:inline-flex;
+}
